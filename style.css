@@ -3,9 +3,11 @@
     --primary-color: #A7F3D0;
     --secondary-color: #065F46;
     --font-color: #059669;
+    --off-white: #E5E7EB;
 }
 
 body {
+    margin: 0px;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -62,8 +64,8 @@ hr {
 
 .nav {
     padding: 1rem;
-    border-bottom-right-radius: 1.1rem;
-    border-top-left-radius: 1.1rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -98,4 +100,39 @@ hr {
     text-align: center;
     padding: 2rem;
     color: var(--font-color);
+}
+
+
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.offwhite {
+    background-color: var(--off-white);
+}
+
+
+/** footer section **/
+
+.footer {
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.footer-heading {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
